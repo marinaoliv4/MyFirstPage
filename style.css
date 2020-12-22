@@ -1,0 +1,128 @@
+
+#post_title, .post, .post_content, .photo {
+    color: #624763;
+    font-family: fantasy;
+}
+
+.titulo {
+    color:#F9B3D1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1px;
+}
+
+.subtitle1 {
+    color:#F9B3D1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1px;
+}
+
+.subtitle2 {
+    color:#624763;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+background: #624763;
+margin-top: 15px;
+padding: 15px;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: left;
+
+}
+
+.body {
+    background: #F9B3D1;
+    text-align: middle;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    box-align: middle;
+    
+    
+}
+
+.title {
+    font-size: 10%;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+a {
+    text-decoration: 
+}
+
+.post_title {
+    font-size: 25px;
+    border-radius: 50px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #ffffff;
+    padding: 45px;
+    border-radius: 30px;
+    margin: 15px
+}
+
+.post_content {
+    /* font-size: 16px;  */
+    margin-bottom: 15px;
+    margin-top: 25px;
+    text-align: left;
+    font-family: OCR A Std, monospace;
+    display: flex;
+    flex-direction:column;
+    align-items: right;
+    
+}
+
+.post_image {
+    margin-bottom: 15px;
+    margin-left: 18px;
+    max-width:200px;
+    max-height:150px;
+    border-radius: 30px;
+    margin-bottom: 18px;
+
+}
+.contato {
+    list-style-type: none;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+footer {
+   font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  #624763;
+}
